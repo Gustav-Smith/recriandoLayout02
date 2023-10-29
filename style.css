@@ -1,0 +1,161 @@
+body {
+  background: #2C2B3D;
+  font-family: "Open Sans", sans-serif;
+
+  min-height: 100vh;
+}
+
+.page {
+  width: 1092px;
+  margin: 71px auto 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: auto;
+
+  margin-bottom: 65px;
+}
+
+ul {
+  display: flex;
+  gap: 48px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+ul li a {
+  color: #FFF;
+  text-decoration: none;
+  opacity: 1.5;
+}
+
+
+ul li a:hover {
+  font-weight: bold;
+  opacity: 2;
+}
+
+h1,
+ul {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1 {
+  margin: 30px 0;
+  color: #FFF;
+  width: 361px;
+  height: 40px;
+  font-size: 36px;
+  white-space: nowrap;
+}
+
+h1 span {
+  color: #00BFA6;
+  width: 248px;
+  height: 40px;
+  font-size: 36px;
+}
+
+#img{
+  margin: 71px;
+}
+
+#color {
+  color: #00BFA6;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+#color1{
+  color: #C2C2C2;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+section p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #C2C2C2;
+
+  
+  font-family: "Open Sans", sans-serif;
+  gap: 10px;
+}
+
+p {
+  line-height: 28px;
+  text-align: center;
+  width: 604px;
+  margin: 40px 0;
+}
+
+button {
+  color: white;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+
+  background: #6186dc;
+  border: none;
+  padding: 14px 32px 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  border-radius: 4px;
+
+  cursor: pointer;
+}
+
+#linha{
+  width: 568px;
+  height: 0;
+
+  margin: 0 auto 8px;
+
+  border-bottom: 1px solid #00BFA6;
+  
+}
+
+footer {
+  font-size: 14px;
+  line-height: 28px;
+  color: #FFF;
+  font-family: JetBrains Mono;
+  text-align: center;
+
+  margin-top: 18px;
+
+}
+
+footer a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #FFF;
+}
+
+#cadeado {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+
+  margin: 20px;
+  
+}
